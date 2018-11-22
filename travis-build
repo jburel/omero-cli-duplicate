@@ -7,7 +7,7 @@ set -x
 python setup.py sdist
 pip install dist/*.tar.gz
 pip install omego
-omego download server --ice 3.5 --release 5.4.0-m4 --sym=auto
+omego download server --ice 3.6 --release 5.4.9 --sym=auto
 
 # Check that the plugin is installed
 OMERO.server/bin/omero duplicate -h;
